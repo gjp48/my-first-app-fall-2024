@@ -11,6 +11,6 @@ Todo: install packages
 
 Run the examlpe script:
 
-'''sh
+```sh
 python app/my_script.py 
-'''
+```
