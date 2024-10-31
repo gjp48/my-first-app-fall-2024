@@ -9,7 +9,7 @@ Todo: install packages
 
 ## Usage 
 
-Run the examlpe script:
+Run the example script:
 
 ```sh
 python app/my_script.py 
