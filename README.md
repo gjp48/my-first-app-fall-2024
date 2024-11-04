@@ -14,24 +14,33 @@ Activate the environment (whenever you come back to this project):
 conda activate reports-env-2024
 ```
 
-
 Install packages:
 
 ```sh
 pip install -r requirements.txt
 ```
 
+[Obtain an API Key](https://www.alphavantage.co/support/#api-key) from AlphaVantage.
 
-## Usage 
+Create a ".env" file and add contents like the following (using your own AlphaVantage API Key):
+
+```sh
+# this is the ".env" file:
+ALPHAVANTAGE_API_KEY="..."
+```
+
+## Usage
 
 Run the example script:
 
 ```sh
-python app/my_script.py 
+python app/my_script.py
 ```
 
 Run the unemployment report:
 
 ```sh
-ALPHAVANTAGE_API_KEY= "..." python app/unemployment.py 
+#ALPHAVANTAGE_API_KEY="..." python app/unemployment.py
+
+python app/unemployment.py
 ```
