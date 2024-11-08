@@ -8,3 +8,4 @@ pandas
 
 plotly
 
+sendgrid==6.5.0

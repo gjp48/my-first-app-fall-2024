@@ -52,11 +52,6 @@ def send_email_with_sendgrid(recipient_address=SENDGRID_SENDER_ADDRESS,
         print(type(err))
         print(err)
 
-
-
-
 # SEND EXAMPLE EMAIL:
 
 send_email_with_sendgrid(html_content="Hello. Tuesday Night")
-
-

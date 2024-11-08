@@ -31,6 +31,10 @@ Create a ".env" file and add contents like the following (using your own AlphaVa
 ALPHAVANTAGE_API_KEY="..."
 ```
 
+#optionally 
+SENDGRID_API_KEY = userdata.get("SENDGRID_API_KEY")
+SENDGRID_SENDER_ADDRESS = userdata.get("SENDGRID_SENDER_ADDRESS")
+
 ## Usage
 
 Run the example script:
@@ -52,6 +56,13 @@ Run the stocks report:
 ```sh
 python app/stocks.py
 ```
+
+Install packages again:
+
+```sh
+pip install -r requirements.txt
+```
+
 
 Run the example email sending file:
 
