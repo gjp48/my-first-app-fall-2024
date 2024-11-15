@@ -1,4 +1,3 @@
-
 # this is the app/stocks.py file...
 
 # LOCAL DEV (ENV VARS)
