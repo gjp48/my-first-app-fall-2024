@@ -52,7 +52,6 @@ def determine_outcome(u, c):
     return outcome
 
 
-
 if __name__ == "__main__":
 
     #
