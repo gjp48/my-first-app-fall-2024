@@ -30,6 +30,7 @@ def send_email_with_sendgrid(recipient_address=SENDGRID_SENDER_ADDRESS,
             html_content (str): The content of the email. Can pass a string formatted as HTML.
     """
     print("SENDING EMAIL TO:", recipient_address)
+    #print("SENDING EMAIL TO:", recipient_address)
     print("SUBJECT:", subject)
     print("HTML:", html_content)
 
