@@ -1,0 +1,53 @@
+{% extends "bootstrap_5_layout.html" %}
+{% set active_page = "home" %}
+
+{% block content %}
+
+    <h1>Welcome Home</h1>
+
+    <p>This is a paragraph on the "home" page.</p>
+
+        <!--
+
+        RESPONSIVE GRID OF CARDS
+
+        SEE:
+
+            https://getbootstrap.com/docs/5.0/layout/grid/
+
+            https://getbootstrap.com/docs/5.0/components/card/
+
+            https://getbootstrap.com/docs/5.0/components/card/#grid-cards
+
+      -->
+
+      <div class="row row-cols-3">
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
+
