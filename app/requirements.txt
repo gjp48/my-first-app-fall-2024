@@ -13,3 +13,6 @@ sendgrid==6.5.0
 pytest
 
 flask
+
+# used in production to run our web app:
+gunicorn
